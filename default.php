@@ -9,7 +9,7 @@
 
 </head>
 
-<body class='bodybg'>
+<body class="bodybg">
 
     <?php
     include("connectDB.php");
@@ -17,12 +17,11 @@
     include("cart.php");
     include("navbar.php");
     ?>
-    <h1>TEST</h1>
+    <h1 class="test">TEST</h1>
     <br>
     <a href="cart.html">CART</a>
     <br>
 
-    <!-- <? include("bootstrapjs.php"); ?> -->
 </body>
 
 </html>

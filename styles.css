@@ -10,6 +10,11 @@
     margin-left: auto;
 };
 
-body {
+.bodybg body {
 background-color:    #7AA0BE;
+};
+
+.test h1 {
+    color:#7AA0BE;
+    font-size: 100em;
 };
