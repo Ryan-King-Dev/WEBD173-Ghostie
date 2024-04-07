@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ghostie Gear Incorporated</title>
-    <?php include("styles.php"); ?>
-
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body class="bodybg">
@@ -17,10 +16,13 @@
     include("cart.php");
     include("navbar.php");
     ?>
-    <h1 class="test">TEST</h1>
-    <br>
-    <a href="cart.html">CART</a>
-    <br>
+    <div id="main>
+        <h1 class=" test">TEST</h1>
+        <br>
+        <a href="cart.html">CART</a>
+        <br>
+    </div>
+
 
 </body>
 

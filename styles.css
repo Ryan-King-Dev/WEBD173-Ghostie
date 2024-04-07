@@ -2,6 +2,11 @@
     color: red;
 };
 
+body #main{ 
+    background-color: aqua;
+};
+
+/* 
 #cartlink {
     display: flex;
 };
@@ -10,11 +15,22 @@
     margin-left: auto;
 };
 
-.bodybg body {
+body{
 background-color:    #7AA0BE;
+color:#7AA0BE;
+font-size: 100em;
+width: 960px;
 };
 
-.test h1 {
+/* .test {
     color:#7AA0BE;
     font-size: 100em;
+}; */
+
+/* #main {
+width: 960px;
 };
+
+h1 {
+    font-style: italic;
+}; */ 
