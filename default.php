@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ghostie Gear Incorporated</title>
-    <?php include("/styles/styles.php") ?>
+    <?php include("styles/styles.php") ?>
 </head>
 
 <body>
 
-    <?php include("/server/connectDB.php") ?>
+    <?php include("server/connectDB.php") ?>
 
-    <div class='utility'><?php include("/components/utility.php") ?></div>
+    <div class='utility'><?php include("components/utility.php") ?></div>
 
-    <?php include("/components/navbar.php") ?>
+    <?php include("components/navbar.php") ?>
 
 
     <div id='motto'>
@@ -94,7 +94,7 @@
 
     <div id="opportunity">
         <div id="group">
-            <img src='/images/community.png'>
+            <img src='images/community.png'>
             <p>
                 Visit our <span style="font-weight:bold; font-size: 1.2em">COMMUNITY</span> page and connect with like-minded individuals today!
                 <br><br>
@@ -105,7 +105,7 @@
 
         </div>
         <div id="evidence">
-            <img src="/images/sound wave.png">
+            <img src="images/sound wave.png">
             <p>
                 Visit our <span style="font-weight:bold; font-size: 1.2em">EVIDENCE ROOM</span> to view ghostly submissions from our members using the very tools from our store.
                 <br><br>
@@ -114,8 +114,8 @@
         </div>
     </div>
 
-    <?php include('/components/footer.php') ?>
-    <?php include("/styles/bootstrapjs.php") ?>
+    <?php include('components/footer.php') ?>
+    <?php include("styles/bootstrapjs.php") ?>
 </body>
 
 </html>

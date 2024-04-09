@@ -1,5 +1,5 @@
-<a id='logolink' href='/default.php'>
-        <img id='logo' src='/images/ghostielogo - transparent - 2.png'>
+<a id='logolink' href='default.php'>
+        <img id='logo' src='images/ghostielogo - transparent - 2.png'>
 </a>
 
 <form id='formsearch' class='border-0'>
@@ -9,11 +9,11 @@
 
 
 <div id='registerlogin'>
-        <a href='/registration.php'>Registration</a>
+        <a href='registration.php'>Registration</a>
         <br>
-        <a href='/login.php'>Login</a>
+        <a href='login.php'>Login</a>
 </div>
 
-<a id='cartlink' href='/cart/cart.php'>
-        <img id='carticon' src=' /images/Shopping Cart Icon - orange.png'>
+<a id='cartlink' href='cart/cart.php'>
+        <img id='carticon' src=' images/Shopping Cart Icon - orange.png'>
 </a>
