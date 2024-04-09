@@ -20,6 +20,7 @@
         <h1>Apparel</h1>
     </div>
 
+    <?php include('../WEBD173-Ghostie/components/footer.php') ?>
     <?php include("../WEBD173-Ghostie/styles/bootstrapjs.php") ?>
 </body>
 
