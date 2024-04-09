@@ -10,14 +10,14 @@
 
 <body>
 
-    <?php include("../WEBD173-Ghostie/server/connectDB.php") ?>
-
-    <div class='utility'><?php include("../WEBD173-Ghostie/components/utility.php") ?></div>
-
-    <?php include("../WEBD173-Ghostie/components/navbar.php") ?>
+    <?php
+    include("../WEBD173-Ghostie/server/connectDB.php");
+    include("../WEBD173-Ghostie/components/utility.php");
+    include("../WEBD173-Ghostie/components/navbar.php");
+    ?>
 
     <div>
-        <h1>Equipment</h1>
+        <h1>TEST</h1>
     </div>
 
     <?php include("../WEBD173-Ghostie/styles/bootstrapjs.php") ?>
