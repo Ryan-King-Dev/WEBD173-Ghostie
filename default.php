@@ -23,9 +23,9 @@
 
     <div id='promo'>
         <div id='announcement'>
-            <p>Login to get 20% off selected items. <br>
+            <h2>Login to get 20% off selected items. <br>
                 Exclusive Member Promotion Event <br>
-                ends in:</p>
+                ends in:</h2>
         </div>
         <div id='timer'>
             <div id='day1'>
@@ -87,6 +87,26 @@
     </div>
 
     <h1 id='exclusive'>Exclusive Member Promotions</h1>
+    <div class='producthome'>
+        <p class='productimage'><img src="images/emfreader3.png"></p>
+        <div class='purchasegroup'>
+            <div class='description'>
+                <p class='productsale'>EMF Reader <br>
+                    $20.00<br>
+                    $25.00 Save $5.00<br>
+                </p>
+                <p class='productdesc'>An EMF reader, or electromagnetic field meter, is a crucial tool in ghost hunting that detects fluctuations in <a href='' class='readmore'>... read more</a>
+                </p>
+            </div>
+            <div class='purchase'>
+                <button>Buy Now</button>
+                <button>Add to Cart</button>
+                <button>-</button>
+                <p>0</p>
+                <button>+</button>
+            </div>
+        </div>
+    </div>
 
     <h1 id='toprated'>Top Rated Items</h1>
 

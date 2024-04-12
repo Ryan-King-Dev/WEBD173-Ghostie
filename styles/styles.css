@@ -112,16 +112,20 @@ body {
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         height: 400px;
+        padding-top: 2em;
     }
         
     #announcement { 
         grid-area: 1 / 1 / 2 / 2;
         align-self: center;
         margin: -50px 0 0 30%;
-        font-size: 2.25em;
-
+        /* font-size: 2.25em; */
+     }
+ 
+    #announcement h2 {
+        font-weight: bold;
     }
-    
+
     #timer { 
         grid-area: 1 / 2 / 2 / 3; 
         display: grid;
@@ -281,6 +285,7 @@ body {
         #hours p {
             margin: 0;
         }
+
         #minutes { 
             grid-area: 2 / 7 / 3 / 9; 
             font-size: 2.5em;
@@ -292,202 +297,252 @@ body {
             margin: 0;
         }
     
-        #member {
-            grid-area: 2 / 1 / 3 / 3;
-            text-align: center;
-            height: 50px;
-            margin-top: -30px;
-        }
-        #member p {
-            font-size: 1.5em;
-            margin-bottom: -10px;
-        }
-        #member button {
-            border-radius: 50px;
-            width: 300px;
-            height: 40px;
-            background-color: #FFA500;
-            border: 0px;
-            font-size: 1.5em;
-            font-weight: bold;
-        }
+    #member {
+        grid-area: 2 / 1 / 3 / 3;
+        text-align: center;
+        height: 50px;
+        margin-top: -30px;
+    }
+    #member p {
+        font-size: 1.5em;
+        margin-bottom: -10px;
+    }
+    #member button {
+        border-radius: 50px;
+        width: 300px;
+        height: 40px;
+        background-color: #FFA500;
+        border: 0px;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
 
-        #ghostie {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: 1fr;
-            grid-column-gap: 0px;
-            grid-row-gap: 0px;
-            background-color: black;
-            height: 400px;
-            }
-            
-        #hunt { 
-            grid-area: 1 / 1 / 2 / 2;
-            color: white;
-            font-size: 2em;
-            margin: auto;
-            margin-left: 160px;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            font-weight: bold;
-            align-content: center;
-            margin-left: 30%;
-            
+    #ghostie {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        background-color: black;
+        height: 400px;
         }
         
-        #example { 
-            grid-area: 1 / 2 / 2 / 3; 
-            align-content: center;
-            margin: auto;
-            margin-right: 30%;
+    #hunt { 
+        grid-area: 1 / 1 / 2 / 2;
+        color: white;
+        font-size: 2em;
+        margin: auto;
+        margin-left: 160px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        align-content: center;
+        margin-left: 30%;
+        
+    }
+    
+    #example { 
+        grid-area: 1 / 2 / 2 / 3; 
+        align-content: center;
+        margin: auto;
+        margin-right: 30%;
 
+    }
+
+    #example img {
+        width: 450px;
+    }
+
+    #exclusive, #toprated, #community {
+        text-align: center;
+    }
+
+    #opportunity {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
         }
-
-        #example img {
-            width: 450px;
-        }
-
-        #exclusive, #toprated, #community {
+        
+        #group { 
+            grid-area: 1 / 1 / 2 / 2; 
+            font-size: 1.5em;
+            background-color: black;
+            color: white;
+            width: 60%;
+            margin: 50px auto 50px 30%;
+            border-radius: 5%;
             text-align: center;
         }
 
-        #opportunity {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: 1fr;
-            grid-column-gap: 0px;
-            grid-row-gap: 0px;
-            }
-            
-            #group { 
-                grid-area: 1 / 1 / 2 / 2; 
-                font-size: 1.5em;
-                background-color: black;
-                color: white;
-                width: 60%;
-                margin: 50px auto 50px 30%;
-                border-radius: 5%;
-                text-align: center;
-            }
+        #group img {
+            width: 60%;
+            border-radius: 5%;
+            margin: 25px;
+        }
 
-            #group img {
-                width: 60%;
-                border-radius: 5%;
-                margin: 25px;
-            }
+        #group p {
+            width: 500px;
+            text-align: left;
+            margin: 25px auto;
+            font-weight: normal;
 
-            #group p {
-                width: 500px;
-                text-align: left;
-                margin: 25px auto;
-                font-weight: normal;
+        }
 
-            }
+        #evidence { 
+            grid-area: 1 / 2 / 2 / 3; 
+            font-size: 1.5em;
+            background-color: black;
+            color: white;
+            width: 60%;
+            margin: 50px 30% 50px auto;
+            border-radius: 5%;
+            text-align: center;
+        }
 
-            #evidence { 
-                grid-area: 1 / 2 / 2 / 3; 
-                font-size: 1.5em;
-                background-color: black;
-                color: white;
-                width: 60%;
-                margin: 50px 30% 50px auto;
-                border-radius: 5%;
-                text-align: center;
-            }
+        #evidence img {
+            width: 80%;
+            border-radius: 5%;
+            margin: 50px auto 25px auto;
+        }
 
-            #evidence img {
-                width: 80%;
-                border-radius: 5%;
-                margin: 50px auto 25px auto;
-            }
+        #evidence p {
+            width: 500px;
+            text-align: left;
+            margin: 75px auto 25px auto;
+            font-weight: normal;
+        }
 
-            #evidence p {
-                width: 500px;
-                text-align: left;
-                margin: 75px auto 25px auto;
-                font-weight: normal;
-            }
+    .producthome {
+        display: flex;
+        width: 50%;
+        min-height: 200px;
+        margin: auto;
+        background-color: black;
+        color: white;
+        border-radius: 25px;
+    }
+    
+    .productimage {
+        margin: auto;
+        background-color: white;
+        width: 150px;
+        height: 150px;
+        align-content: center;
+        border-radius: 25px;
+        margin-left: 50px;
+        
+    }
 
-            .footer {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: repeat(3, 1fr);
-                grid-column-gap: 0px;
-                grid-row-gap: 0px;
-                background-color: black;
-                height: 500px;
-                }
-                
-                .footerlogo { 
-                    grid-area: 1 / 1 / 2 / 4;
-                    margin: 50px auto 50px auto;
-                }
+    .productgroup {
+        display: flex;
+    }
 
-                .footerlogo img {
-                    width: 150px;
-                }
+    .readmore { 
+        color: #FFA500; 
+        text-decoration: none;
+    }
 
-                .footerlink { 
-                    grid-area: 2 / 1 / 3 / 2;
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center; 
-                    font-size: 1.25em;
-                }
+    .productimage img {
+        margin: auto;
+        display: flex;
+        max-height: 125px;
+    }
 
-                .footerlink a {
-                    text-decoration: none;
-                    color: white;
-                }
+    .description {
+        margin: auto;
+        padding-left: 25px;
+    }
 
-                .footercontact { 
-                    grid-area: 2 / 2 / 3 / 3; 
-                    display: flex;
-                    flex-direction: column;
-                    color: white;
-                    text-align: center;
-                    margin: auto;
-                    margin-top: 0;
-                }
+    .productdesc {
+        margin-right: 50px;
+    }
 
-                .phone, .email, .address {
-                    display: flex;
-                }
+    .purchase {
+        display: flex;
+        float: right;
+        margin-right: 75px;
+        
+    }
 
-                .phone p, .email p, .address p {
-                    margin: 5px 0px 10px 10px;
-                    font-size: 1.25em;
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        background-color: black;
+        height: 500px;
+        }
+        
+        .footerlogo { 
+            grid-area: 1 / 1 / 2 / 4;
+            margin: 50px auto 50px auto;
+        }
 
-                }
+        .footerlogo img {
+            width: 150px;
+        }
 
-                .phone img, .email img, .address img{
-                    width: 35px;
-                    height: 35px;
-                }
+        .footerlink { 
+            grid-area: 2 / 1 / 3 / 2;
+            display: flex;
+            flex-direction: column;
+            text-align: center; 
+            font-size: 1.25em;
+        }
 
-                .footersocial { 
-                    grid-area: 2 / 3 / 3 / 4; 
-                    font-size: 1.25em;
-                    color: white;
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
-                }
+        .footerlink a {
+            text-decoration: none;
+            color: white;
+        }
 
-                .footersocial a {
-                    text-decoration: none;
-                    color: white;
-                }
+        .footercontact { 
+            grid-area: 2 / 2 / 3 / 3; 
+            display: flex;
+            flex-direction: column;
+            color: white;
+            text-align: center;
+            margin: auto;
+            margin-top: 0;
+        }
 
-                .footercopy { 
-                    grid-area: 3 / 1 / 4 / 4; 
-                    font-size: 1.25em;
-                    color: white;
-                    text-align: center;
-                    margin: 25px auto;
-                }
+        .phone, .email, .address {
+            display: flex;
+        }
 
+        .phone p, .email p, .address p {
+            margin: 5px 0px 10px 10px;
+            font-size: 1.25em;
 
+        }
+
+        .phone img, .email img, .address img{
+            width: 35px;
+            height: 35px;
+        }
+
+        .footersocial { 
+            grid-area: 2 / 3 / 3 / 4; 
+            font-size: 1.25em;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .footersocial a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footercopy { 
+            grid-area: 3 / 1 / 4 / 4; 
+            font-size: 1.25em;
+            color: white;
+            text-align: center;
+            margin: 25px auto;
+        }
 
 };
 
