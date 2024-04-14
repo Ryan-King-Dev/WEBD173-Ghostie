@@ -91,19 +91,61 @@
         <p class='productimage'><img src="images/emfreader3.png"></p>
         <div class='purchasegroup'>
             <div class='description'>
-                <p class='productsale'>EMF Reader <br>
-                    $20.00<br>
-                    $25.00 Save $5.00<br>
+                <p class='productsale'><span style="font-size: 1.5em;">EMF Reader <br>
+                        $20.00</span><br>
+                    <span style="text-decoration: line-through;">$25.00</span> Save $5.00<br>
                 </p>
                 <p class='productdesc'>An EMF reader, or electromagnetic field meter, is a crucial tool in ghost hunting that detects fluctuations in <a href='' class='readmore'>... read more</a>
                 </p>
             </div>
             <div class='purchase'>
-                <button>Buy Now</button>
-                <button>Add to Cart</button>
-                <button>-</button>
-                <p>0</p>
-                <button>+</button>
+                <button class='buynow'>Buy Now</button>
+                <button class='addtocart'>Add to Cart</button>
+                <button class='removeitem'>-</button>
+                <p class='itemcount'>0</p>
+                <button class='additem'>+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class='producthome'>
+        <p class='productimage'><img src="images/utility jacket - 2.png"></p>
+        <div class='purchasegroup'>
+            <div class='description'>
+                <p class='productsale'><span style="font-size: 1.5em;">Utility Vest <br>
+                        $52.00</span><br>
+                    <span style="text-decoration: line-through;">$65.00</span> Save $13.00<br>
+                </p>
+                <p class='productdesc'>The utility vest is an essential piece of gear for ghost hunters, offering multiple pockets and compartments to easily carry <a href='' class='readmore'>... read more</a>
+                </p>
+            </div>
+            <div class='purchase'>
+                <button class='buynow'>Buy Now</button>
+                <button class='addtocart'>Add to Cart</button>
+                <button class='removeitem'>-</button>
+                <p class='itemcount'>0</p>
+                <button class='additem'>+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class='producthome'>
+        <p class='productimage'><img src="images/ghost sticker.png"></p>
+        <div class='purchasegroup'>
+            <div class='description'>
+                <p class='productsale'><span style="font-size: 1.5em;">Bumper Sticker<br>
+                        $16.00</span><br>
+                    <span style="text-decoration: line-through;">$20.00</span> Save $4.00<br>
+                </p>
+                <p class='productdesc'>A bumper sticker that reads "Ghost Hunter on Board" is a playful way for enthusiasts to declare their passion for paranormal <a href='' class='readmore'>... read more</a>
+                </p>
+            </div>
+            <div class='purchase'>
+                <button class='buynow'>Buy Now</button>
+                <button class='addtocart'>Add to Cart</button>
+                <button class='removeitem'>-</button>
+                <p class='itemcount'>0</p>
+                <button class='additem'>+</button>
             </div>
         </div>
     </div>
