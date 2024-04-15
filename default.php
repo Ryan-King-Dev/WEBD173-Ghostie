@@ -25,7 +25,7 @@
         <div id='announcement'>
             <h2>Login to get 20% off selected items. <br>
                 Exclusive Member Promotion Event <br>
-                ends in:</h2>
+                ends soon!</h2>
         </div>
         <div id='timer'>
             <div id='day1'>
@@ -86,7 +86,7 @@
         </div>
     </div>
 
-    <h1 id='exclusive'>Exclusive Member Promotions</h1>
+    <h1 id='exclusive' class='sectionheader'>Exclusive Member Promotions</h1>
     <div class='producthome'>
         <p class='productimage'><img src="images/emfreader3.png"></p>
         <div class='purchasegroup'>
@@ -150,9 +150,77 @@
         </div>
     </div>
 
-    <h1 id='toprated'>Top Rated Items</h1>
+    <h1 id='toprated' class='sectionheader'>Top Rated Items</h1>
 
-    <h1 id='community'>Community Opportunities</h1>
+
+    <div class='producthome'>
+        <p class='productimage'><img src="images/evp recorder - 2.png"></p>
+        <img src='images/ghostie - med - embossed - 03-11.png' id='ghostiefind'>
+        <div class='purchasegroup'>
+            <div class='description'>
+                <p class='productsale'><span style="font-size: 1.5em;">EVP Recorder<br>
+                        $50.00<br>
+                        5.0 <img src='images/star - white.png'> <br></span>
+                </p>
+                <p class='productdesc'>An EVP recorder is a digital device specifically designed for ghost hunters to capture electronic voice phenomena <a href='' class='readmore'>... read more</a>
+                </p>
+            </div>
+            <div class='purchase'>
+                <button class='buynow'>Buy Now</button>
+                <button class='addtocart'>Add to Cart</button>
+                <button class='removeitem'>-</button>
+                <p class='itemcount'>0</p>
+                <button class='additem'>+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class='producthome'>
+        <p class='productimage'><img src="images/camera 2.png"></p>
+        <div class='purchasegroup'>
+            <div class='description'>
+                <p class='productsale'><span style="font-size: 1.5em;">Night Vision Camera<br>
+                        $190.00<br>
+                        4.9 <img src='images/star - white.png'> <br></span>
+                </p>
+                <p class='productdesc'>A night vision camera is an indispensable tool for ghost hunters, enabling them to see and record video in <a href='' class='readmore'>... read more</a>
+                </p>
+            </div>
+            <div class='purchase'>
+                <button class='buynow'>Buy Now</button>
+                <button class='addtocart'>Add to Cart</button>
+                <button class='removeitem'>-</button>
+                <p class='itemcount'>0</p>
+                <button class='additem'>+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class='producthome'>
+        <p class='productimage'><img src="images/keychain (1).png"></p>
+        <div class='purchasegroup'>
+            <div class='description'>
+                <p class='productsale'><span style="font-size: 1.5em;">Ghost Keychain<br>
+                        $15.00<br>
+                        4.8 <img src='images/star - white.png'> <br></span>
+                </p>
+                <p class='productdesc'>A ghost keychain is a whimsical accessory for ghost hunters, featuring a cute or spooky ghosty design, serving as a <a href='' class='readmore'>... read more</a>
+                </p>
+            </div>
+            <div class='purchase'>
+                <button class='buynow'>Buy Now</button>
+                <button class='addtocart'>Add to Cart</button>
+                <button class='removeitem'>-</button>
+                <p class='itemcount'>0</p>
+                <button class='additem'>+</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <h1 id='community' class='sectionheader'>Community Opportunities</h1>
 
     <div id="opportunity">
         <div id="group">
